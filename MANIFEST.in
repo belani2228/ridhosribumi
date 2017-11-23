@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ridhosribumi *.css
+recursive-include ridhosribumi *.csv
+recursive-include ridhosribumi *.html
+recursive-include ridhosribumi *.ico
+recursive-include ridhosribumi *.js
+recursive-include ridhosribumi *.json
+recursive-include ridhosribumi *.md
+recursive-include ridhosribumi *.png
+recursive-include ridhosribumi *.py
+recursive-include ridhosribumi *.svg
+recursive-include ridhosribumi *.txt
+recursive-exclude ridhosribumi *.pyc
